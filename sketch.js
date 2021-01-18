@@ -58,9 +58,9 @@ function draw() {
   fill("white");
   textFont("Lucida Calligraphy");
   textSize(15);
-  text("Drag the MOUSE to stretch the catapult and aim at the blocks.", 50, 50); 
-  text("Release the MOUSE to shoot the Polygon.", 50, 100);
-  text("Press SPACE Arrow Key to shoot the Polygon again.", 50, 150);
+  text("Drag the MOUSE to stretch the catapult and aim at the blocks", 50, 50); 
+  text("Release the MOUSE to shoot the Polygon", 50, 100);
+  text("Press SPACE Arrow Key to shoot the Polygon again", 50, 150);
   detectCollision(polygon, block1);
   detectCollision(polygon, block2);
   detectCollision(polygon, block3);
