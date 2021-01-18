@@ -53,8 +53,9 @@ function setup() {
 
 function draw() {
 
-  background(rgb(36, 34, 30));
-  fill(255);
+  background("black");
+  stroke("black");
+  fill("white");
   textFont("Lucida Calligraphy");
   textSize(15);
   text("Drag the MOUSE to stretch the catapult and aim at the blocks.", 50, 50); 
