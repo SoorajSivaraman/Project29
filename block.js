@@ -3,7 +3,7 @@ class Block {
       var options = {
         'isStatic': true,
           'restitution':0,
-          'friction':1
+          'friction':7
 }
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.colour = colour;
