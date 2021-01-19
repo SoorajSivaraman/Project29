@@ -1,9 +1,8 @@
 class Block {
   constructor(x, y, width, height, colour) {
       var options = {
-        'isStatic': true,
           'restitution':0,
-          'friction':7
+          'friction':1
 }
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.colour = colour;
